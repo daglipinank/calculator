@@ -1,0 +1,55 @@
+.result {
+	font-size: 80px;
+	color: white;
+	text-align: right;
+	background-color: black;
+	border: 1pt solid;
+	height: 100px;
+}
+.colo {
+	font-size: 60px;
+	text-align: center;
+	background-color: orange;
+	border: 1pt solid;
+	height: 100px;
+}
+.col {
+	font-size: 60px;
+	text-align: center;
+	background-color: #E0E0E0;
+	border: 1pt solid;
+	height: 100px;
+}
+.colo1 {
+	font-size: 60px;
+	text-align: center;
+	background-color: green;
+	border: 1pt solid;
+	height: 100px;
+}
+.col1 {
+	font-size: 60px;
+	text-align: center;
+	background-color: white;
+	border: 1pt solid;
+	height: 100px;
+}
+.cold {
+	font-size: 60px;
+	text-align: center;
+	background-color: darkgrey;
+	border: 1pt solid;
+	height: 100px;
+}
+.theme {
+	font-size: 20px;
+	text-align: center;
+	vertical-align: center;
+	height:50px;
+}
+.space {
+	height: 100px;
+}
+body {
+	background-color: darkgrey;
+}
