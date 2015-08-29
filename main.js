@@ -34,7 +34,7 @@ $(document).ready(function (){
 		}
 	});
 	$('.decimal').click(function (){
-		if($text.text().indexOf('.')<0)
+	    if($text.text().indexOf('.')<0)
 			$text.text($text.text()+".");
 		else
 			$text.text($text.text());
@@ -66,17 +66,13 @@ $(document).ready(function (){
 			case 'tan':{ $result = Math.tan(parseFloat($num2)) ; break; }
 			case 'sqrt':{ $result = Math.sqrt(parseFloat($num2)); break; }
 			case 'cbrt':{ $result = Math.cbrt(parseFloat($num2)) ; break; }
-			case 'inv':{ $result = (1/parseFloat(num2) ); break; }
+			case 'log':{ $result = Math.log(parseFloat($num2)); break; }
 			case '': {console.log("you fail!!!!");}
 		}
 		$text.text(($result));
 	});
-	$('.original').click(function (){
-		$('.col1').removeClass( "col" ).addClass( "col" );
-		$('.colo1').removeClass( "colo" ).addClass( "colo" );
-	});
 	$('.newTheme').click(function (){
-		$('.col1').removeClass( "colo" ).addClass( "col1" );
-		$('.colo1').removeClass( "colo" ).addClass( "colo1" );
+		$('.col').removeClass( "colo" ).addClass( "col1" );
+		$('.colo').removeClass( "colo" ).addClass( "colo1" );
 	});
 });
