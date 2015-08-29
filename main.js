@@ -72,8 +72,8 @@ $(document).ready(function (){
 		$text.text(($result));
 	});
 	$('.original').click(function (){
-		$('.col').removeClass( "col" ).addClass( "col1" );
-		$('.colo').removeClass( "colo" ).addClass( "colo1" );
+		$('.col1').removeClass( "col" ).addClass( "col" );
+		$('.colo1').removeClass( "colo" ).addClass( "colo" );
 	});
 	$('.newTheme').click(function (){
 		$('.col1').removeClass( "colo" ).addClass( "col1" );
